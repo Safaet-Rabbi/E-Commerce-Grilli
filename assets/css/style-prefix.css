@@ -106,7 +106,7 @@ input::-ms-input-placeholder { font: inherit; }
 
 input::placeholder { font: inherit; }
 
-body { background: var(--white); }
+body { background: rgba(148, 179, 190, 0.288); }
 
 /**
  * scrollbar style
@@ -115,7 +115,7 @@ body { background: var(--white); }
 body::-webkit-scrollbar { width: 15px; }
 
 body::-webkit-scrollbar-track {
-  background: var(--white);
+  background: lightskyblue;
   border-left: 1px solid var(--cultured);
 }
 
@@ -126,7 +126,7 @@ body::-webkit-scrollbar-thumb {
           border-radius: 10px;
 }
 
-body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
+body::-webkit-scrollbar-thumb:hover { background: hsl(0, 47%, 50%); }
 
 
 
@@ -146,7 +146,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-  background: transparent;
+  background: lightcoral;
   border: 3px solid var(--white);
   -webkit-border-radius: 20px;
           border-radius: 20px;
